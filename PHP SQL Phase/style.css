@@ -1,0 +1,9 @@
+.background-image {
+  background-image: url("https://shorturl.at/wHMW8");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensures the background image covers the entire viewport height */
+}
+.sign-width {
+  width: 40%; /* Default width for larger screens */
+}
