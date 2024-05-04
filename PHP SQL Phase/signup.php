@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST['password'];
 
   // SQL query to insert data into users_table
-  $sql = "INSERT INTO MyUsers (firstName, lastName, email)
-   VALUES ('$firstName', '$lastName', '$email')";
+  $sql = "INSERT INTO MyUsers (firstName, lastName, email,password)
+   VALUES ('$firstName', '$lastName', '$email', $password)";
 }
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
